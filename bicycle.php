@@ -12,7 +12,6 @@ spl_autoload_register(function ($class_name) {
 class bicycle extends vehicle{
     protected $gear;
     protected $height;
-    protected $details = [];
 
     public function __construct($wheels, $speed, $gear, $height, $color){
         $this->wheels = $wheels;
