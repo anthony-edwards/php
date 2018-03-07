@@ -76,15 +76,15 @@ $bike->ride();
 print " \n " . "Start Bike Ride.... " . " \n " .
 "Speed: " . $bike->getSpeed() . " \n " .
 "Color: " . $bike->getColor() . " \n " .
-"Gear " . $bike->getGear()  . " \n " .
-"Height " . $bike->getSeatHeight() . " \n " .
-"Wheels " . $bike->getWheels() . " \n ";
+"Gear: " . $bike->getGear()  . " \n " .
+"Height: " . $bike->getSeatHeight() . " \n " .
+"Wheels: " . $bike->getWheels() . " \n ";
 
 //End Bike Ride
 $bike->rideCompleted();
 print " \n " . "Ride Completed.... " . " \n " .
 "Speed: " . $bike->getSpeed() . " \n " .
 "Color: " . $bike->getColor() . " \n " .
-"Gear " . $bike->getGear()  . " \n " .
-"Height " . $bike->getSeatHeight() . " \n " .
-"Wheels " . $bike->getWheels() . " \n ";
+"Gear: " . $bike->getGear()  . " \n " .
+"Height: " . $bike->getSeatHeight() . " \n " .
+"Wheels: " . $bike->getWheels() . " \n ";
